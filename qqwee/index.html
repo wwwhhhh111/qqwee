@@ -1,0 +1,720 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style>
+		*{
+		margin:0;
+    	padding:0;
+		text-decoration:none;
+		list-style:none;
+		
+	}
+	.clearfix:after{
+			content:"";
+			clear:both;
+			display: block;
+		}
+	.box{
+			width:1349px;
+			
+			margin:30px auto;
+		}		
+			
+     .top{
+		 height:36px;
+	 }
+	 .top1{
+		 margin-bottom:17px;
+	 }
+			
+	.top h1{
+			background:url(weibo.jpg) no-repeat left center;
+			font-family:"微软雅黑";
+			margin-left:175px;
+			padding-left:53px;
+			float:left;
+			margin-right:11px;
+		}
+		.top p1{
+			float:left;
+			
+			color:#9F9F9F;
+			line-height:32px;
+			
+			
+		}
+		.top p2{
+			display:block;
+			width:35px;
+			height:12px;
+			font-family:"宋体";
+			font-size:12px;
+			line-height:12px;
+			color:#fff;
+			background-color:#75500A;
+			
+		}
+		.top2 p{
+			background:url(sanjiao.jpg) no-repeat left center;
+			margin-left:175px;
+			padding-left:16px;
+			font-size:16px;
+			font-family:"宋体";
+			color:#333333;
+		}
+		.top2 span{
+			color:#999999;
+		}
+		.top3{
+			margin-bottom:23px;
+		}
+		.daohang{
+			height:43px;
+			border:1px solid #ccc;
+			background-color:#EBEBEB;
+		}
+		.daohang ul{
+			width:600px;
+			font-size:0;
+			margin-left:175px;
+			
+		}
+		.daohang li{
+			display:inline-block;
+			width:67px;
+			height:44px;
+			line-height:44px;
+			text-align:center;
+			font-size:16px;
+		}
+		.daohang ul li:hover{
+			color:#D50335;
+			background-color:#fff;
+			border-top:3px solid #D50335;
+		}
+		.zhong{
+			margin-bottom:30px;
+		}
+		.zuo{
+			height:269px;
+			width:1200px;
+			float:left;
+			
+		}
+		.zuo1{
+			height:270px;
+			width:237px;
+			border:1px solid #ccc;
+			margin-left:175px;
+			margin-right:17px;
+			float:left;
+		}
+		.zuo1 h3{
+			margin-top:15px;
+			float:left;
+			font-family:"宋体";
+			font-size:16px;
+			margin-left:10px;
+			color:#333333;
+		}
+		.zuo1 p{
+			line-height:22px;
+			color:#999999;
+			font-family:"宋体";
+			font-size:12px;
+			
+		}
+		.zuo2{
+			height:270px;
+			width:237px;
+			border:1px solid #ccc;
+			margin-right:17px;
+			float:left;
+		}
+		.zuo2 h3{
+			margin-top:15px;
+			float:left;
+			font-family:"宋体";
+			font-size:16px;
+			margin-left:10px;
+			color:#333333;
+		}
+		.zuo2 p{
+			line-height:22px;
+			color:#999999;
+			font-family:"宋体";
+			font-size:12px;
+			
+		}
+		.zuo3{
+			height:270px;
+			width:237px;
+			border:1px solid #ccc;
+			margin-right:17px;
+			float:left;
+		}
+		.zuo3 h3{
+			margin-top:15px;
+			float:left;
+			font-family:"宋体";
+			font-size:16px;
+			margin-left:10px;
+			color:#333333;
+		}
+		.zuo3 p{
+			line-height:22px;
+			color:#999999;
+			font-family:"宋体";
+			font-size:12px;
+			
+		}
+		.zuo4{
+			height:270px;
+			width:237px;
+			border:1px solid #ccc;
+			
+			float:right;
+		}
+		.zuo4 h3{
+			margin-top:15px;
+			float:left;
+			font-family:"宋体";
+			font-size:16px;
+			margin-left:10px;
+			color:#333333;
+		}
+		.zuo p{
+			line-height:22px;
+			color:#999999;
+			font-family:"宋体";
+			font-size:12px;
+			
+		}
+		
+	
+		.xia{
+			height:269px;
+			width:1200px;
+			float:left;
+			margin-top:30px;
+		}
+		.xia1{
+			height:270px;
+			width:237px;
+			border:1px solid #ccc;
+			margin-left:175px;
+			margin-right:17px;
+			float:left;
+		}
+		.xia1 h3{
+			margin-top:15px;
+			float:left;
+			font-family:"宋体";
+			font-size:16px;
+			margin-left:10px;
+			color:#333333;
+		}
+		.xia1 p{
+			line-height:22px;
+			color:#999999;
+			font-family:"宋体";
+			font-size:12px;
+			
+		}
+		.xia2{
+			height:270px;
+			width:237px;
+			border:1px solid #ccc;
+			margin-right:17px;
+			float:left;
+		}
+		.xia2 h3{
+			margin-top:15px;
+			float:left;
+			font-family:"宋体";
+			font-size:16px;
+			margin-left:10px;
+			color:#333333;
+		}
+		.xia2 p{
+			line-height:22px;
+			color:#999999;
+			font-family:"宋体";
+			font-size:12px;
+			
+		}
+		.xia3{
+			height:270px;
+			width:237px;
+			border:1px solid #ccc;
+			margin-right:17px;
+			float:left;
+		}
+		.xia3 h3{
+			margin-top:15px;
+			float:left;
+			font-family:"宋体";
+			font-size:16px;
+			margin-left:10px;
+			color:#333333;
+		}
+		.xia3 p{
+			line-height:22px;
+			color:#999999;
+			font-family:"宋体";
+			font-size:12px;
+			
+		}
+		.xia4{
+			height:270px;
+			width:237px;
+			border:1px solid #ccc;
+			
+			float:right;
+		}
+		.xia4 h3{
+			margin-top:15px;
+			float:left;
+			font-family:"宋体";
+			font-size:16px;
+			margin-left:10px;
+			color:#333333;
+		}
+		.xia4 p{
+		line-height:22px;
+			color:#999999;
+			font-family:"宋体";
+			font-size:12px;
+		}
+		.you{
+			height:269px;
+			width:1200px;
+			float:left;
+			margin-top:30px;
+		}
+		.you1{
+			height:270px;
+			width:237px;
+			border:1px solid #ccc;
+			margin-left:175px;
+			margin-right:17px;
+			float:left;
+		}
+		.you1 h3{
+			margin-top:15px;
+			float:left;
+			font-family:"宋体";
+			font-size:16px;
+			margin-left:10px;
+			color:#333333;
+		}
+		.you1 p{
+			line-height:22px;
+			color:#999999;
+			font-family:"宋体";
+			font-size:12px;
+			
+		}
+		.you2{
+			height:270px;
+			width:237px;
+			border:1px solid #ccc;
+			margin-right:17px;
+			float:left;
+		}
+		.you2 h3{
+			margin-top:15px;
+			float:left;
+			font-family:"宋体";
+			font-size:16px;
+			margin-left:10px;
+			color:#333333;
+		}
+		.you2 p{
+			line-height:22px;
+			color:#999999;
+			font-family:"宋体";
+			font-size:12px;
+			
+		}
+		.you3{
+			height:270px;
+			width:237px;
+			border:1px solid #ccc;
+			margin-right:17px;
+			float:left;
+		}
+		.you3 h3{
+			margin-top:15px;
+			float:left;
+			font-family:"宋体";
+			font-size:16px;
+			margin-left:10px;
+			color:#333333;
+		}
+		.you3 p{
+			line-height:22px;
+			color:#999999;
+			font-family:"宋体";
+			font-size:12px;
+			
+		}
+		.you4{
+			height:270px;
+			width:237px;
+			border:1px solid #ccc;
+			
+			float:right;
+		}
+		.you4 h3{
+			margin-top:15px;
+			float:left;
+			font-family:"宋体";
+			font-size:16px;
+			margin-left:10px;
+			color:#333333;
+		}
+		.you4 p{
+		line-height:22px;
+			color:#999999;
+			font-family:"宋体";
+			font-size:12px;
+		}
+		.shang{
+			height:269px;
+			width:1200px;
+			float:left;
+			margin-top:30px;
+		}
+		.shang1{
+			height:270px;
+			width:237px;
+			border:1px solid #ccc;
+			margin-left:175px;
+			margin-right:17px;
+			float:left;
+		}
+		.shang1 h3{
+			margin-top:15px;
+			float:left;
+			font-family:"宋体";
+			font-size:16px;
+			margin-left:10px;
+			color:#333333;
+		}
+		.shang1 p{
+			line-height:22px;
+			color:#999999;
+			font-family:"宋体";
+			font-size:12px;
+			
+		}
+		.shang2{
+			height:270px;
+			width:237px;
+			border:1px solid #ccc;
+			margin-right:17px;
+			float:left;
+		}
+		.shang2 h3{
+			margin-top:15px;
+			float:left;
+			font-family:"宋体";
+			font-size:16px;
+			margin-left:10px;
+			color:#333333;
+		}
+		.shang2 p{
+			line-height:22px;
+			color:#999999;
+			font-family:"宋体";
+			font-size:12px;
+			
+		}
+		.shang3{
+			height:270px;
+			width:237px;
+			border:1px solid #ccc;
+			margin-right:17px;
+			float:left;
+		}
+		.shang3 h3{
+			margin-top:15px;
+			float:left;
+			font-family:"宋体";
+			font-size:16px;
+			margin-left:10px;
+			color:#333333;
+		}
+		.shang3 p{
+			line-height:22px;
+			color:#999999;
+			font-family:"宋体";
+			font-size:12px;
+			
+		}
+		.shang4{
+			height:270px;
+			width:237px;
+			border:1px solid #ccc;
+			
+			float:right;
+		}
+		.shang4 h3{
+			margin-top:15px;
+			float:left;
+			font-family:"宋体";
+			font-size:16px;
+			margin-left:10px;
+			color:#333333;
+		}
+		.shang4 p{
+		line-height:22px;
+			color:#999999;
+			font-family:"宋体";
+			font-size:12px;
+		}
+		.bottom ul{
+			
+			width:491px;
+			font-size:0;
+			margin-left:500px;
+
+			
+		}
+		.bottom li{
+
+			display:inline-block;
+			width:28px;
+			height:28px;
+			line-height:28px;
+			text-align:center;
+			font-size:16px;
+			border:1px solid #ccc;
+			margin-left:5px;
+			margin-right:5px;
+			margin-top:100px;
+		}
+		.bottom ul li:hover{
+			color:#fff;
+			background-color:#AD0000;
+			
+		}
+		.zui{
+			width:1349px;
+			height:161px;
+			background-color:#FBFBFB;
+			margin-top:80px;
+		}
+		.zui h5{
+			text-align:center;
+			line-height:50px;
+			color:#666666;
+		}
+		.zui p a,.zui p span{
+			
+			font-family:"宋体";
+			color:#666666;
+		}
+		.zui p{
+			margin-left:388px;
+		}
+					
+		
+		
+		
+			
+
+
+</style>
+</head>
+
+<body>
+<div class="box">
+<div class="top">
+	<h1>新浪图片</h1>
+    <p class="p1">photo.sina.com.cn</p>
+    <p class="p2">有温度的视觉</p>
+    </div>
+    <div class="top1"></div>
+    <div class="top2">
+    <p>图集汇总-<span>新闻中心图集精选</span></p>
+    </div>
+    <div class="top3"></div>
+    <div class="daohang">
+    	<ul>
+        	<li class="hui">精选</li>
+            <li>精选</li>
+            <li>精选</li>
+            <li>精选</li>
+            <li>精选</li>
+            <li>精选</li>
+            <li>精选</li>
+            <li>精选</li>
+       </ul>
+    </div>
+    <div class="zhong"></div>
+    <div class="zuo">
+    <div class="zuo1">
+    
+    	<img src="tu2.jpg"> 
+        <h3>男生改造寝室糟害滴世界<h3>
+        <p>华丽的灯具，逼真的海底世界回执，别出心裁的图案设计</p>
+        </div>
+        
+        <div class="zuo2">
+        
+        <img src="tu2.jpg"> 
+        <h3>男生改造寝室糟害滴世界<h3>
+        <p>华丽的灯具，逼真的海底世界回执，别出心裁的图案设计</p>
+    </div>
+    
+    <div class="zuo3">
+    <img src="tu2.jpg"> 
+        <h3>男生改造寝室糟害滴世界<h3>
+        <p>华丽的灯具，逼真的海底世界回执，别出心裁的图案设计</p>	
+    </div>
+    
+     <div class="zuo4">
+    <img src="tu2.jpg"> 
+        <h3>男生改造寝室糟害滴世界<h3>
+        <p>华丽的灯具，逼真的海底世界回执，别出心裁的图案设计</p>
+        </div>	
+   </div>
+   
+   <div class="xia">
+   <div class="xia1">
+   <img src="tu2.jpg"> 
+        <h3>男生改造寝室糟害滴世界<h3>
+        <p>华丽的灯具，逼真的海底世界回执，别出心裁的图案设计</p>
+        </div>
+        
+        <div class="xia2">
+   <img src="tu2.jpg"> 
+        <h3>男生改造寝室糟害滴世界<h3>
+        <p>华丽的灯具，逼真的海底世界回执，别出心裁的图案设计</p>
+        </div>
+        
+         <div class="xia3">
+   <img src="tu2.jpg"> 
+        <h3>男生改造寝室糟害滴世界<h3>
+        <p>华丽的灯具，逼真的海底世界回执，别出心裁的图案设计</p>
+        </div>
+         <div class="xia4">
+   <img src="tu2.jpg"> 
+        <h3>男生改造寝室糟害滴世界<h3>
+        <p>华丽的灯具，逼真的海底世界回执，别出心裁的图案设计</p>
+        </div>
+   </div>
+   <div class="you">
+   <div class="you1">
+   <img src="tu2.jpg"> 
+        <h3>男生改造寝室糟害滴世界<h3>
+        <p>华丽的灯具，逼真的海底世界回执，别出心裁的图案设计</p>
+        </div>
+        
+        <div class="you2">
+   <img src="tu2.jpg"> 
+        <h3>男生改造寝室糟害滴世界<h3>
+        <p>华丽的灯具，逼真的海底世界回执，别出心裁的图案设计</p>
+        </div>
+        
+         <div class="you3">
+   <img src="tu2.jpg"> 
+        <h3>男生改造寝室糟害滴世界<h3>
+        <p>华丽的灯具，逼真的海底世界回执，别出心裁的图案设计</p>
+        </div>
+         <div class="you4">
+   <img src="tu2.jpg"> 
+        <h3>男生改造寝室糟害滴世界<h3>
+        <p>华丽的灯具，逼真的海底世界回执，别出心裁的图案设计</p>
+        </div>
+   </div>
+   <div class="shang">
+   <div class="shang1">
+   <img src="tu2.jpg"> 
+        <h3>男生改造寝室糟害滴世界<h3>
+        <p>华丽的灯具，逼真的海底世界回执，别出心裁的图案设计</p>
+        </div>
+        
+        <div class="shang2">
+   <img src="tu2.jpg"> 
+        <h3>男生改造寝室糟害滴世界<h3>
+        <p>华丽的灯具，逼真的海底世界回执，别出心裁的图案设计</p>
+        </div>
+        
+         <div class="shang3">
+   <img src="tu2.jpg"> 
+        <h3>男生改造寝室糟害滴世界<h3>
+        <p>华丽的灯具，逼真的海底世界回执，别出心裁的图案设计</p>
+        </div>
+         <div class="shang4">
+   <img src="tu2.jpg"> 
+        <h3>男生改造寝室糟害滴世界<h3>
+        <p>华丽的灯具，逼真的海底世界回执，别出心裁的图案设计</p>
+        </div>
+   </div>
+   <div class="bottom">
+   	<ul>
+ 
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>81</li>
+        <li>82</li>
+       
+        
+    </ul>
+   </div>
+   <div class="zui">
+   	<h5>新闻中心意见反馈留言板</h5>
+    <p>
+    	<a href="#">新浪简介</a>
+        <span>|</span>
+        <a href="#">新浪简介</a>
+        <span>|</span>
+        <a href="#">新浪简介</a>
+        <span>|</span>
+        <a href="#">新浪简介</a>
+        <span>|</span>
+        <a href="#">新浪简介</a>
+        <span>|</span>
+        <a href="#">新浪简介</a>
+        <span>|</span>
+        <a href="#">新浪简介</a>
+        <span>|</span>
+        <a href="#">新浪简介</a>
+        <span>|</span>
+        <a href="#">新浪简介</a>
+       
+    </p>
+    <h5>COopyright @1996-2013nvkdvlrfgyhjufrddrfrfgyhjufrddl</h5>
+    <h5>新浪公司 版权所有</h5>
+   </div>
+   
+   
+   	
+  
+  
+  
+  
+   
+   
+   	
+  
+  
+  
+  
+
+   
+   
+	
+</div>
+</body>
+</html>
